@@ -12,10 +12,11 @@ def isprime(numbers):
 
 def generate_prime_numbers(numberlimit):
     """ Generates prime number from 0 to given number """
-    #for number in range(0, numberlimit):
+    #checks if the given number is prime
     if isprime(numberlimit):
+        #returns the number if prime
         return numberlimit
     else:
+        #returns none if not prime
         return 'None'
-
-print(generate_prime_numbers(3))
+    
