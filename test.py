@@ -23,6 +23,7 @@ class TestCheckisPrime(unittest.TestCase):
     def test_check12isnotprime(self):
         """ test to assert 12 is not prime """
         self.assertEqual(prime.generate_prime_numbers(12), 'None')
-
+        
+#start of execution for the test class
 if __name__ == '__main__':
     unittest.main()
